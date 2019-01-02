@@ -1,0 +1,41 @@
+body{
+	border: 2px solid black;
+	min-height: 400px;
+	position: relative;
+}
+.parent{
+	background-color: #EBEDEF;
+	min-height: 400px;
+}
+.single1, .single2, .single3, .single4, .single5{
+	height: 50px;
+	width: 5%;
+	position: absolute;
+}
+.single1{
+	background-color: blue;
+	top: 0;
+	left: 0;
+}
+.single2{
+	background-color: yellow;
+	top: 0;
+	right: 0;
+}
+.single3{
+	background-color: red;
+	bottom: 0;
+	left: 0;
+}
+.single4{
+	background-color: green;
+	bottom: 0;
+	right: 0;
+}
+.single5{
+	background-color: aqua;
+	left: 45%;
+	left: 0;
+	right: 0;
+	margin: 150px auto;
+}
